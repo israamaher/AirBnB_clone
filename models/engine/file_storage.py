@@ -15,7 +15,7 @@ from models.user import User
 
 class FileStorage:
     """serializes instances to a JSON file and deserializes JSON"""
-    __file_path = "file.json"
+     __file_path = "./file.json"
     __objects = {}
 
     def all(self):
